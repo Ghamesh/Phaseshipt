@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: lato;
+    font-size: 18px;
+
+}
+.clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.navigation{
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0px;
+}
+.navigation ul{
+    float: right;
+
+}
+.navigation ul li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 100;
+    color: grey;
+}
+.navigation h1{
+    float: left;
+    margin: 10px;
+}
+.navigation span{
+    font-size: 20px;
+    color: grey;
+    font-weight: 100;
+}
+.second-part{
+    background-image: url(../images/images/bg.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    margin: 0;
+}
+.second-part-child{
+    width: 85%;
+    margin:  0 auto;
+    text-align: center;
+}
+.second-part-child p{
+    margin: 0%;
+    padding: 40px 0px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+.my-btn{
+    background-color: orangered;
+    margin: 0 auto; 
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+    color: honeydew;
+    font-size: 20px;
+}
+.three-img{
+    width: 30%;
+    background-color: #fff;
+    padding-bottom: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.three-img p{
+    color: grey;
+}
+.three-img img{
+    width: 100%;
+    
+}
+.center{
+    margin: 0 30px;
+    margin-top: 30px;
+}
+/* incon parat start */
+.icon-part{
+    width: 85%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 0px;
+}
+.icon-part span{
+    float: left;
+    font-size: 50px;
+    padding-bottom: 25%;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.icon-part-top-left{
+    width: 48%;
+    
+    float: left;
+}
+.icon-part-top-right{
+    width:48%;
+    float: right;
+   
+}
+.icon-part-btm-left{
+    float: left;
+    
+    width: 48%;
+}
+.icon-part-btm-right{
+    float: right;
+    
+    width: 48%;
+}
+/* footer part start */
+
+.footer{
+    
+    width: 100%;
+    padding: 40px 0px;
+    color: #fff;
+    background-color: orangered;
+}
+.footer-child{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    width: 70%;
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+textarea{
+    width: 70%;
+    margin: 10px 0px;
+}
+.foot-btn{
+    margin: 10px 0px ;
+    padding: 10px 20px ;
+    color: #fff;
+    background: transparent;
+    border: solid 1px #fff;
+}
+/* media query start */
+@media only screen and (max-width: 1040px){
+    .icon-part-btm-left{
+        width: 80%;
+        margin: 0 auto;
+        clear: both;
+        float: none;
+    }
+    .icon-part-btm-right{
+        width: 80%;
+        margin: 0 auto;
+        clear: both;
+        float: none;
+    }
+    .icon-part-top-right{
+        width: 80%;
+        margin: 0 auto;
+        clear: both;
+        float: none;
+    }
+    .icon-part-top-left{
+        width: 80%;
+        margin: 0 auto;
+        clear: both;
+        float: none;
+    }
+    
+}
+@media only screen and (max-width:840px){
+    .three-img{
+        width: 80%;
+        margin: 0 auto;
+        margin: 20px 0px;
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:615px) {
+    .icon-part span{
+        
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .icon-part{
+        text-align: center;
+    }
+}
